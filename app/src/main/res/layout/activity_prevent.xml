@@ -54,7 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="480dp"
+        android:layout_marginTop="510dp"
         android:text="Quarantine"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textColor="#131313"
@@ -62,5 +62,31 @@
         android:textStyle="bold"
         android:typeface="serif"
         android:visibility="visible" />
+
+    <TextView
+        android:id="@+id/socialdistancing"
+        android:layout_width="450dp"
+        android:layout_height="100dp"
+        android:text=""
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="235dp"/>
+
+    <TextView
+        android:id="@+id/hygiene"
+        android:layout_width="450dp"
+        android:layout_height="100dp"
+        android:text=""
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="390dp"/>
+
+    <TextView
+        android:id="@+id/quarantine"
+        android:layout_width="450dp"
+        android:layout_height="100dp"
+        android:text=""
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="550dp"/>
+
+
 
 </RelativeLayout>

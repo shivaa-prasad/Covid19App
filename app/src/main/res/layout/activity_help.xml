@@ -54,7 +54,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="510dp"
+        android:layout_marginTop="525dp"
         android:text="Telephone and email"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textColor="#131313"
@@ -63,5 +63,28 @@
         android:typeface="serif"
         android:visibility="visible" />
 
+    <TextView
+        android:id="@+id/emergency"
+        android:layout_width="450dp"
+        android:layout_height="100dp"
+        android:text=""
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="235dp"/>
+
+    <TextView
+        android:id="@+id/trustsource"
+        android:layout_width="450dp"
+        android:layout_height="100dp"
+        android:text=""
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="410dp"/>
+
+    <TextView
+        android:id="@+id/phoneemail"
+        android:layout_width="450dp"
+        android:layout_height="100dp"
+        android:text=""
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="560dp"/>
 
 </RelativeLayout>
