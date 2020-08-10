@@ -75,4 +75,22 @@
         android:text="Coronavirus is a virus that is mostly found in the animals. It can cause diseases ranging from common cold to severe diseases like Severe Acute Respiratory Syndrome (SARS) and Middle East Respiratory Syndrome (MERS). Since, COVID-19 is a new disease it is hard to find all about its characteristics. The information will be updated regularly."
         android:layout_marginLeft="30dp"
         android:layout_marginTop="235dp"/>
+
+    <TextView
+        android:id="@+id/howitspreads"
+        android:layout_width="450dp"
+        android:layout_height="100dp"
+        android:text=""
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="385dp"/>
+
+    <TextView
+        android:id="@+id/symptoms"
+        android:layout_width="450dp"
+        android:layout_height="100dp"
+        android:text=""
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="540dp"/>
+
+
 </RelativeLayout>
