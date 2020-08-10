@@ -80,7 +80,7 @@
         android:id="@+id/howitspreads"
         android:layout_width="450dp"
         android:layout_height="100dp"
-        android:text=""
+        android:text="COVID-19 mostly spreads from an infected person through personal contact, liquid droplets when an infected person coughs or sneezes or by touching mouth, nose or eyes directly after touching the infected area. "
         android:layout_marginLeft="30dp"
         android:layout_marginTop="385dp"/>
 
@@ -88,7 +88,19 @@
         android:id="@+id/symptoms"
         android:layout_width="450dp"
         android:layout_height="100dp"
-        android:text=""
+        android:text="Those who are infected with COVID-19 have had a wide range of symptoms. Symptoms may appear 2-14 days after exposure to the virus. Symptoms may vary from mild to severe. Symptoms for COVID-19 are:
+•	Cough
+•	Fever
+•	Chills
+•	Runny nose
+•	Sore throat
+•	Breathing difficulty
+•	Body aches
+•	Fatigue
+•	Nausea or vomiting
+•	Diarrhea
+The list may not be complete but it will be updated as more information is learned about COVID-19.
+"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="540dp"/>
 
