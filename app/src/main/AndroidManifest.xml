@@ -11,8 +11,22 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Aboutpage"></activity>
-        <activity android:name=".HomePage" />
+        <activity android:name=".Help"
+            android:parentActivityName=".HomePage"></activity>
+        <activity android:name=".Travel"
+            android:parentActivityName=".HomePage"/>
+        <activity android:name=".Testing"
+            android:parentActivityName=".HomePage"/>
+        <activity android:name=".Sick"
+            android:parentActivityName=".HomePage"/>
+        <activity android:name=".Prevent"
+            android:parentActivityName=".HomePage"/>
+        <activity android:name=".Registerpage"
+            android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Aboutpage"
+            android:parentActivityName=".HomePage"/>
+        <activity android:name=".HomePage"
+            android:parentActivityName=".MainActivity"/>
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

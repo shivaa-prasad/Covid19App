@@ -4,35 +4,30 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Aboutpage">
+    tools:context=".Travel">
+
 
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/textView20"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="110dp"
+        android:layout_marginLeft="80dp"
         android:layout_marginTop="130dp"
-        android:text="About Covid-19"
+        android:text="Travel Safe Guidlines"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textColor="#131313"
-        android:textStyle="bold"
         android:typeface="serif"
-        android:visibility="visible"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.07"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.033" />
+        android:textStyle="bold"
+        android:visibility="visible" />
 
     <TextView
-        android:id="@+id/textView10"
+        android:id="@+id/textView21"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="200dp"
-        android:text="What is Covid-19?"
+        android:text="Travel Safe Countries"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textColor="#131313"
         android:textSize="20sp"
@@ -41,26 +36,12 @@
         android:visibility="visible" />
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/textView22"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="350dp"
-        android:text="How it spreads ?"
-        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
-        android:textColor="#131313"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:typeface="serif"
-        android:visibility="visible" />
-
-    <TextView
-        android:id="@+id/textView12"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="500dp"
-        android:text="What are the symptoms ?"
+        android:text="What Saftey Measures To Take?"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textColor="#131313"
         android:textSize="20sp"
@@ -69,10 +50,18 @@
         android:visibility="visible"  />
 
     <TextView
-        android:id="@+id/abtdiscription"
-        android:layout_width="450dp"
-        android:layout_height="100dp"
-        android:text="Coronavirus is a virus that is mostly found in the animals. It can cause diseases ranging from common cold to severe diseases like Severe Acute Respiratory Syndrome (SARS) and Middle East Respiratory Syndrome (MERS). Since, COVID-19 is a new disease it is hard to find all about its characteristics. The information will be updated regularly."
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="235dp"/>
+        android:layout_marginTop="480dp"
+        android:text="How to quarantine?"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="#131313"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:visibility="visible" />
+
+
 </RelativeLayout>

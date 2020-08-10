@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Testing">
+
+
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="130dp"
+        android:text="Test Centers"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="#131313"
+        android:typeface="serif"
+        android:textStyle="bold"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:id="@+id/Tc1"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:layout_marginTop="220dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="105dp"
+            android:paddingTop="30dp"
+            android:text="          Test Center-1"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textColor="#131313"
+            android:typeface="serif"
+            android:visibility="visible"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Tc2"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:layout_marginTop="380dp"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="105dp"
+            android:paddingTop="30dp"
+            android:text="          Test Center-2"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textColor="#131313"
+            android:typeface="serif"
+            android:visibility="visible"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Tc3"
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:layout_marginTop="540dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="105dp"
+            android:paddingTop="30dp"
+            android:text="          Test Center-3"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:textColor="#131313"
+            android:typeface="serif"
+            android:visibility="visible"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

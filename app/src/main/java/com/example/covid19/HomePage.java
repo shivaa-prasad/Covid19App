@@ -23,10 +23,52 @@ public class HomePage extends AppCompatActivity {
         travel_covid = findViewById(R.id.travel);
         help_covid = findViewById(R.id.help);
 
+        getSupportActionBar().setTitle("Covid-19 Information App");
+
         about_covid.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(getApplicationContext(),Aboutpage.class));
+            }
+        });
+
+        prevent_covid.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(HomePage.this, Prevent.class);
+                startActivity(i);
+            }
+        });
+
+        sick_covid.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(HomePage.this, Sick.class);
+                startActivity(i);
+            }
+        });
+
+        testing_covid.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(HomePage.this, Testing.class);
+                startActivity(i);
+            }
+        });
+
+        travel_covid.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(HomePage.this, Travel.class);
+                startActivity(i);
+            }
+        });
+
+        help_covid.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(HomePage.this, Help.class);
+                startActivity(i);
             }
         });
 

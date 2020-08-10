@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -23,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     Button login;
     FirebaseAuth mAuth;
     ProgressBar progressBar;
+    TextView createaccount;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,6 +35,9 @@ public class MainActivity extends AppCompatActivity {
         mPassword = findViewById(R.id.passwordTxt);
         login = findViewById(R.id.login);
         progressBar = findViewById(R.id.progressBar);
+        createaccount = findViewById(R.id.create_account);
+
+        getSupportActionBar().setTitle("Covid-19 Information App");
 
         login.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -60,6 +65,12 @@ public class MainActivity extends AppCompatActivity {
                         }
                     }
                 });
+            }
+        });
+        createaccount.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getApplicationContext(), Registerpage.class));
             }
         });
 
