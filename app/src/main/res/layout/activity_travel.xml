@@ -67,7 +67,18 @@
         android:id="@+id/safecountries"
         android:layout_width="450dp"
         android:layout_height="100dp"
-        android:text=""
+        android:text="If you are planning to travel, you must know how the COVID-19 is spreading in the country you want to visit. Countries that have the coronavirus pandemic largely under control are in this list. The travel safe countries are:
+•	Australia
+•	Canada
+•	Georgia
+•	Japan
+•	New Zealand
+•	South Korea 
+•	Thailand
+•	Tunisia
+•	Uruguay
+This list will be updated as new data is available.
+"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="235dp"/>
 
@@ -75,7 +86,15 @@
         android:id="@+id/safetymeasures"
         android:layout_width="450dp"
         android:layout_height="100dp"
-        android:text=""
+        android:text="While travelling to another country you must make sure to know if the country that you will be travelling to is safe or not. 
+•	Check if there are any travelling restrictions or not
+•	Try staying at a safe place.
+•	 Make sure you wear a mask while travelling. 
+•	Maintain the 2-meter distance when you are in a public place.  
+•	Wash your hands often or use sanitizer.
+•	You can try online or contactless reservations and check-ins.
+•	Try to use contactless payment.
+"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="390dp"/>
 
@@ -83,7 +102,12 @@
         android:id="@+id/howquarantine"
         android:layout_width="450dp"
         android:layout_height="100dp"
-        android:text=""
+        android:text="After travelling make sure you follow the steps given bellow:
+•	Quarantine for 14 days if you are travelling internationally.
+•	 Try to monitor your health.
+•	Look for the symptoms.
+•	Try not to attend mass gathering events like parade, sport events etc.
+"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="560dp"/>
 
