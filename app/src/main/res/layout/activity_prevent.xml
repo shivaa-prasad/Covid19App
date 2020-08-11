@@ -67,7 +67,7 @@
         android:id="@+id/socialdistancing"
         android:layout_width="450dp"
         android:layout_height="100dp"
-        android:text=""
+        android:text="In order to prevent yourself and your family you must practice social distancing. Try to avoid going out if it is not important. If you have to go out to run some errands try to maintain at least 2-meter distance. Try to wear mask and gloves for more protection."
         android:layout_marginLeft="30dp"
         android:layout_marginTop="235dp"/>
 
@@ -75,7 +75,7 @@
         android:id="@+id/hygiene"
         android:layout_width="450dp"
         android:layout_height="100dp"
-        android:text=""
+        android:text="Hand hygiene is one of the best ways to prevent yourself and your family from getting COVID-19. Make sure to wash your hands often with water and soap. Handwashing should be done for at least 20 seconds, it must be done after coughing, sneezing or when you blow your nose, especially after eating or preparing food. An alcohol based hand sanitizer having 60 % alcohol can be used if soap and water are not readily available. "
         android:layout_marginLeft="30dp"
         android:layout_marginTop="390dp"/>
 
@@ -83,7 +83,7 @@
         android:id="@+id/quarantine"
         android:layout_width="450dp"
         android:layout_height="100dp"
-        android:text=""
+        android:text="Quarantine is for people who have been in close contact with someone who has COVID-19. It can be done at home by monitoring your health. Stay home for 14 days after being in contact with someone who has COVID-19. Look for the symptoms of COVID-19. Try to stay away from others, especially when you think they have a week immune system and are at a higher risk for getting sick from COVID-19."
         android:layout_marginLeft="30dp"
         android:layout_marginTop="550dp"/>
 
