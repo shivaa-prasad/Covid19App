@@ -53,7 +53,14 @@
         android:id="@+id/showingsymptoms"
         android:layout_width="450dp"
         android:layout_height="100dp"
-        android:text=""
+        android:text="If you are showing coronavirus symptoms:
+•	Call your doctor first for advice. 
+•	If you do not have a doctor call the local health board for the advice.
+•	Make sure that they do a treatment in your area.
+•	Isolate yourself at home.
+•	Wear mask while interacting with your family members.
+•	Practice physical distancing.
+"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="270dp"/>
 
@@ -61,7 +68,14 @@
         android:id="@+id/travellingsick"
         android:layout_width="450dp"
         android:layout_height="100dp"
-        android:text=""
+        android:text="Whenever you travel internationally make sure you practice the following steps:
+•	Maintain social distance.
+•	Wear a mask to protect your mouth.
+•	Wash your hands with soap and water or use a hand sanitizer if water and soap are not available.
+•	Do not forget to do quarantine for 14 days.
+•	If you still feel that you are infected, try asking for advice from your doctor.
+•	If your health conditions are serious call 911.
+"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="470dp"/>
 </RelativeLayout>
