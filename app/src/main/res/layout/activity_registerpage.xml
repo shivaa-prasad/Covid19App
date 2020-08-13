@@ -23,20 +23,6 @@
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/dob"
-        android:layout_width="313dp"
-        android:layout_height="39dp"
-        android:layout_marginTop="190dp"
-        android:layout_marginLeft="50dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="DOB"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.489"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <EditText
         android:id="@+id/phone_no"
         android:layout_width="313dp"
         android:layout_height="39dp"
@@ -96,13 +82,52 @@
         android:id="@+id/btnsignup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="520dp"
         android:layout_marginLeft="150dp"
+        android:layout_marginTop="520dp"
+        android:background="#6D9AED"
         android:text="Sign up"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/dobtxt"
+        android:layout_width="313dp"
+        android:layout_height="39dp"
+        android:layout_marginTop="190dp"
+        android:layout_marginLeft="50dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/Dob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="200dp"
+        android:text="Select DOB"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="60dp"
+        android:text="Registeration Page"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        android:textColor="#131313"
+        android:textStyle="bold"
+        android:typeface="serif"
+        android:visibility="visible" />
 
 
 </RelativeLayout>

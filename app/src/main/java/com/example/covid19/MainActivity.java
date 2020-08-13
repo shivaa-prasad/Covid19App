@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
     Button login;
     FirebaseAuth mAuth;
     ProgressBar progressBar;
-    TextView createaccount;
+    TextView createaccount, fgtpassword;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
         login = findViewById(R.id.login);
         progressBar = findViewById(R.id.progressBar);
         createaccount = findViewById(R.id.create_account);
+        fgtpassword = findViewById(R.id.fogotpassword);
 
         getSupportActionBar().setTitle("Covid-19 Information App");
 
@@ -74,6 +75,12 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        fgtpassword.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(MainActivity.this, ForgotPassword.class));
+            }
+        });
     }
 }
 

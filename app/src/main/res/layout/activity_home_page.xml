@@ -1,96 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
     android:layout_centerVertical="true">
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomePage">
 
 
+    <LinearLayout
 
-        <LinearLayout
-            android:id="@+id/about"
+        android:id="@+id/about"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="110dp"
+        android:background="#ABF3F6"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.265">
+
+        <ImageView
+            android:id="@+id/imageView"
             android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:layout_marginTop="140dp"
-            android:orientation="vertical"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.4"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.265">
+            android:layout_height="150dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="290dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/about" />
 
-             <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:layout_marginLeft="0dp"
-                android:layout_marginTop="1dp"
-                android:layout_marginRight="290dp"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/about" />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="278dp"
+            android:layout_height="116dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="-115dp"
+            android:layout_marginRight="150dp"
+            android:layout_weight="1"
+            android:text="About Covid-19"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+    </LinearLayout>
 
-             <TextView
-                android:id="@+id/textView"
-                android:layout_width="155dp"
-                android:layout_height="64dp"
-                android:layout_marginLeft="130dp"
-                android:layout_marginTop="-115dp"
-                android:layout_marginRight="150dp"
-                android:layout_weight="1"
-                android:text="About Covid-19"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textColor="#000000"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:typeface="serif" />
-        </LinearLayout>
+    <LinearLayout
+        android:id="@+id/prevent"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="220dp"
+        android:background="#ABF3F6"
+        android:orientation="vertical">
 
-        <LinearLayout
-            android:id="@+id/prevent"
+        <ImageView
+            android:id="@+id/imageView2"
             android:layout_width="match_parent"
-            android:layout_height="80dp"
-            android:layout_marginTop="245dp"
-            android:orientation="vertical">
+            android:layout_height="150dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="1dp"
+            android:layout_marginRight="290dp"
+            android:layout_weight="1"
+            app:srcCompat="@drawable/prevention" />
 
-            <ImageView
-                android:id="@+id/imageView2"
-                android:layout_width="match_parent"
-                android:layout_height="150dp"
-                android:layout_marginLeft="0dp"
-                android:layout_marginTop="1dp"
-                android:layout_marginRight="290dp"
-                android:layout_weight="1"
-                app:srcCompat="@drawable/prevention" />
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="155dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="-115dp"
+            android:layout_marginRight="150dp"
+            android:layout_weight="1"
+            android:text="How to Prevent"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:typeface="serif" />
 
-            <TextView
-                android:id="@+id/textView2"
-                android:layout_width="155dp"
-                android:layout_height="64dp"
-                android:layout_marginLeft="130dp"
-                android:layout_marginTop="-115dp"
-                android:layout_marginRight="150dp"
-                android:layout_weight="1"
-                android:text="How to Prevent"
-                android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textColor="#000000"
-                android:textSize="18sp"
-                android:textStyle="bold"
-                android:typeface="serif" />
-
-        </LinearLayout>
+    </LinearLayout>
 
         <LinearLayout
             android:id="@+id/sick"
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            android:layout_marginTop="350dp"
-            android:orientation="vertical">
+            android:layout_marginTop="330dp"
+            android:orientation="vertical"
+            android:background="#ABF3F6">
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -122,8 +125,9 @@
             android:id="@+id/testing"
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            android:layout_marginTop="455dp"
-            android:orientation="vertical">
+            android:layout_marginTop="440dp"
+            android:orientation="vertical"
+            android:background="#ABF3F6">
 
             <ImageView
                 android:id="@+id/imageView4"
@@ -155,8 +159,9 @@
             android:id="@+id/travel"
             android:layout_width="match_parent"
             android:layout_height="80dp"
-            android:layout_marginTop="560dp"
-            android:orientation="vertical">
+            android:layout_marginTop="550dp"
+            android:orientation="vertical"
+            android:background="#ABF3F6">
 
             <ImageView
                 android:id="@+id/imageView5"
@@ -189,7 +194,8 @@
             android:layout_width="match_parent"
             android:layout_height="80dp"
             android:layout_marginTop="660dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:background="#ABF3F6">
 
             <ImageView
                 android:id="@+id/imageView6"
@@ -216,6 +222,19 @@
                 android:textStyle="bold"
                 android:typeface="serif" />
         </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="80dp"
+        android:text="Covid-19 Resources"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#000000"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:typeface="serif" />
 </RelativeLayout>
 </ScrollView>
 

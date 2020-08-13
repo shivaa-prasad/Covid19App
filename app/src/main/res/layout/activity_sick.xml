@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="110dp"
-        android:layout_marginTop="130dp"
+        android:layout_marginTop="100dp"
         android:text="If You Get Sick"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textColor="#131313"
@@ -26,7 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="170dp"
         android:text="If you are showing symptoms of Covid-19."
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textColor="#131313"
@@ -40,7 +40,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="400dp"
+        android:layout_marginTop="370dp"
         android:text="If you become sick while traveling back to Canada."
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textColor="#131313"
@@ -49,10 +49,10 @@
         android:typeface="serif"
         android:visibility="visible"  />
 
-    <TextView
+    <com.codesgood.views.JustifiedTextView
         android:id="@+id/showingsymptoms"
-        android:layout_width="450dp"
-        android:layout_height="100dp"
+        android:layout_width="341dp"
+        android:layout_height="130dp"
         android:text="If you are showing coronavirus symptoms:
 •	Call your doctor first for advice. 
 •	If you do not have a doctor call the local health board for the advice.
@@ -62,12 +62,12 @@
 •	Practice physical distancing.
 "
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="270dp"/>
+        android:layout_marginTop="230dp"/>
 
-    <TextView
+    <com.codesgood.views.JustifiedTextView
         android:id="@+id/travellingsick"
-        android:layout_width="450dp"
-        android:layout_height="100dp"
+        android:layout_width="341dp"
+        android:layout_height="160dp"
         android:text="Whenever you travel internationally make sure you practice the following steps:
 •	Maintain social distance.
 •	Wear a mask to protect your mouth.
@@ -77,5 +77,5 @@
 •	If your health conditions are serious call 911.
 "
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="470dp"/>
+        android:layout_marginTop="430dp"/>
 </RelativeLayout>

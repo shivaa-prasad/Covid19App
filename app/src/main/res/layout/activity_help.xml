@@ -13,7 +13,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="65dp"
-        android:layout_marginTop="130dp"
+        android:layout_marginTop="100dp"
         android:text="Where To Call For Help"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textColor="#131313"
@@ -63,18 +63,18 @@
         android:typeface="serif"
         android:visibility="visible" />
 
-    <TextView
+    <com.codesgood.views.JustifiedTextView
         android:id="@+id/emergency"
-        android:layout_width="450dp"
+        android:layout_width="341dp"
         android:layout_height="100dp"
         android:text="If your health condition is really serious like shortness of breath call 911 "
         android:layout_marginLeft="30dp"
         android:layout_marginTop="235dp"/>
 
-    <TextView
+    <com.codesgood.views.JustifiedTextView
         android:id="@+id/trustsource"
-        android:layout_width="450dp"
-        android:layout_height="100dp"
+        android:layout_width="341dp"
+        android:layout_height="120dp"
         android:text="To get more information on coronavirus please call at the Coronavirus hotline number given below.
 1-833-784-4397
 Or visit https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html or https://ipac-canada.org/coronavirus-resources.php
@@ -82,9 +82,9 @@ Or visit https://www.canada.ca/en/public-health/services/diseases/2019-novel-cor
         android:layout_marginLeft="30dp"
         android:layout_marginTop="410dp"/>
 
-    <TextView
+    <com.codesgood.views.JustifiedTextView
         android:id="@+id/phoneemail"
-        android:layout_width="450dp"
+        android:layout_width="341dp"
         android:layout_height="100dp"
         android:text="For emergency call 911,
                       For Coronavirus Hotline call 1-833-784-4397 or send a mail at phac.info.aspc@canada.ca"
