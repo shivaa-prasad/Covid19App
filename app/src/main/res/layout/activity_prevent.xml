@@ -86,6 +86,13 @@
         android:text="Quarantine is for people who have been in close contact with someone who has COVID-19. It can be done at home by monitoring your health. Stay home for 14 days after being in contact with someone who has COVID-19. Look for the symptoms of COVID-19. Try to stay away from others, especially when you think they have a week immune system and are at a higher risk for getting sick from COVID-19."
         android:layout_marginLeft="30dp"
         android:layout_marginTop="550dp"/>
+    
+    
+     <ImageView
+      android:id="@+id/imageView12"
+      android:layout_width="match_parent"
+      android:layout_height="272dp"
+      app:srcCompact="@drawable/handwashing"/>
 
 
 
