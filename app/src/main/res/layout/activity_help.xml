@@ -96,6 +96,6 @@ Or visit https://www.canada.ca/en/public-health/services/diseases/2019-novel-cor
       android:id="@+id/imageView14"
       android:layout_width="match_parent"
       android:layout_height="249dp"
-      app.srcCompact="@drawable/covidsupport"/>
+      app:srcCompact="@drawable/covidsupport"/>
 
 </RelativeLayout>
