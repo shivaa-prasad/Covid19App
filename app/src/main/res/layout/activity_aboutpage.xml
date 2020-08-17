@@ -112,7 +112,7 @@
       android:id="@+id/imageView7"
       android:layout_width="match_parent"
       android:layout_height="218dp"
-      app.srcCompact="@drawable/covid"/>
+      app:srcCompact="@drawable/covid"/>
 
 
 </RelativeLayout>
