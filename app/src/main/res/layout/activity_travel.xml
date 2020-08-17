@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true">
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -13,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="80dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="270dp"
         android:text="Travel Safe Guidlines"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textColor="#131313"
@@ -26,7 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="170dp"
+        android:layout_marginTop="340dp"
         android:text="Travel Safe Countries"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textColor="#131313"
@@ -40,7 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="370dp"
+        android:layout_marginTop="550dp"
         android:text="What Saftey Measures To Take?"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textColor="#131313"
@@ -54,7 +61,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="590dp"
+        android:layout_marginTop="790dp"
         android:text="How to quarantine?"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textColor="#131313"
@@ -66,26 +73,28 @@
     <com.codesgood.views.JustifiedTextView
         android:id="@+id/safecountries"
         android:layout_width="341dp"
-        android:layout_height="150dp"
+        android:layout_height="180dp"
         android:text="If you are planning to travel, you must know how the COVID-19 is spreading in the country you want to visit. Countries that have the coronavirus pandemic largely under control are in this list. The travel safe countries are:
 •	Australia
 •	Canada
 •	Georgia
 •	Japan
 •	New Zealand
-•	South Korea 
+•	South Korea
 •	Thailand
 •	Tunisia
 •	Uruguay
 This list will be updated as new data is available.
 "
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="210dp"/>
+        android:layout_marginTop="370dp"
+        android:textColor="#000000"
+        android:textSize="16sp"/>
 
     <com.codesgood.views.JustifiedTextView
         android:id="@+id/safetymeasures"
         android:layout_width="341dp"
-        android:layout_height="170dp"
+        android:layout_height="210dp"
         android:text="While travelling to another country you must make sure to know if the country that you will be travelling to is safe or not. 
 •	Check if there are any travelling restrictions or not
 •	Try staying at a safe place.
@@ -96,12 +105,14 @@ This list will be updated as new data is available.
 •	Try to use contactless payment.
 "
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="400dp"/>
+        android:layout_marginTop="580dp"
+        android:textColor="#000000"
+        android:textSize="16sp"/>
 
     <com.codesgood.views.JustifiedTextView
         android:id="@+id/howquarantine"
         android:layout_width="341dp"
-        android:layout_height="120dp"
+        android:layout_height="160dp"
         android:text="After travelling make sure you follow the steps given bellow:
 •	Quarantine for 14 days if you are travelling internationally.
 •	 Try to monitor your health.
@@ -109,14 +120,17 @@ This list will be updated as new data is available.
 •	Try not to attend mass gathering events like parade, sport events etc.
 "
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="620dp"/>
-    
-    
-     <ImageView
-      android:id="@+id/imageView8"
-      android:layout_width="match_parent"
-      android:layout_height="232dp"
-      app:srcCompact="@drawable/travelsafe"/>
-    
+        android:layout_marginTop="820dp"
+        android:textColor="#000000"
+        android:textSize="16sp"/>
+
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="match_parent"
+        android:layout_height="232dp"
+        app:srcCompat="@drawable/travelsafe"/>
+
 
 </RelativeLayout>
+</ScrollView>

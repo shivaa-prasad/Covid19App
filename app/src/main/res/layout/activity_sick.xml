@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true">
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -13,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="110dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="280dp"
         android:text="If You Get Sick"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textColor="#131313"
@@ -26,7 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="170dp"
+        android:layout_marginTop="350dp"
         android:text="If you are showing symptoms of Covid-19."
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textColor="#131313"
@@ -40,7 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="370dp"
+        android:layout_marginTop="570dp"
         android:text="If you become sick while traveling back to Canada."
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textColor="#131313"
@@ -52,7 +59,7 @@
     <com.codesgood.views.JustifiedTextView
         android:id="@+id/showingsymptoms"
         android:layout_width="341dp"
-        android:layout_height="130dp"
+        android:layout_height="160dp"
         android:text="If you are showing coronavirus symptoms:
 •	Call your doctor first for advice. 
 •	If you do not have a doctor call the local health board for the advice.
@@ -62,12 +69,14 @@
 •	Practice physical distancing.
 "
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="230dp"/>
+        android:layout_marginTop="410dp"
+        android:textColor="#000000"
+        android:textSize="16sp"/>
 
     <com.codesgood.views.JustifiedTextView
         android:id="@+id/travellingsick"
         android:layout_width="341dp"
-        android:layout_height="160dp"
+        android:layout_height="200dp"
         android:text="Whenever you travel internationally make sure you practice the following steps:
 •	Maintain social distance.
 •	Wear a mask to protect your mouth.
@@ -77,11 +86,15 @@
 •	If your health conditions are serious call 911.
 "
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="430dp"/>
+        android:layout_marginTop="630dp"
+        android:textColor="#000000"
+        android:textSize="16sp"/>
     
      <ImageView
       android:id="@+id/imageView13"
       android:layout_width="match_parent"
       android:layout_height="232dp"
-      app:srcCompact="@drawable/covidsick"/>
+         app:srcCompat="@drawable/covidsick"/>
+
 </RelativeLayout>
+</ScrollView>

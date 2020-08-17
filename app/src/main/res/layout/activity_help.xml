@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true">
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -13,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="65dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="280dp"
         android:text="Where To Call For Help"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textColor="#131313"
@@ -26,7 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="200dp"
+        android:layout_marginTop="340dp"
         android:text="For emergency"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textColor="#131313"
@@ -40,7 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="350dp"
+        android:layout_marginTop="430dp"
         android:text="Trustworthy sources of information for help."
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textColor="#131313"
@@ -54,7 +61,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="525dp"
+        android:layout_marginTop="600dp"
         android:text="Telephone and email"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textColor="#131313"
@@ -69,7 +76,9 @@
         android:layout_height="100dp"
         android:text="If your health condition is really serious like shortness of breath call 911 "
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="235dp"/>
+        android:layout_marginTop="370dp"
+        android:textColor="#000000"
+        android:textSize="16sp"/>
 
     <com.codesgood.views.JustifiedTextView
         android:id="@+id/trustsource"
@@ -80,7 +89,9 @@
 Or visit https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html or https://ipac-canada.org/coronavirus-resources.php
 "
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="410dp"/>
+        android:layout_marginTop="480dp"
+        android:textColor="#000000"
+        android:textSize="16sp"/>
 
     <com.codesgood.views.JustifiedTextView
         android:id="@+id/phoneemail"
@@ -89,13 +100,15 @@ Or visit https://www.canada.ca/en/public-health/services/diseases/2019-novel-cor
         android:text="For emergency call 911,
                       For Coronavirus Hotline call 1-833-784-4397 or send a mail at phac.info.aspc@canada.ca"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="560dp"/>
+        android:layout_marginTop="630dp"
+        android:textColor="#000000"
+        android:textSize="16sp"/>
      
     
     <ImageView
-      android:id="@+id/imageView14"
-      android:layout_width="match_parent"
-      android:layout_height="249dp"
-      app:srcCompact="@drawable/covidsupport"/>
-
+        android:id="@+id/imageView14"
+        android:layout_width="match_parent"
+        android:layout_height="249dp"
+        app:srcCompat="@drawable/covidsupport"/>
 </RelativeLayout>
+</ScrollView>

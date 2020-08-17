@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_centerVertical="true">
+
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -13,7 +20,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="80dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="280dp"
         android:text="Prevention Covid-19"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textColor="#131313"
@@ -26,7 +33,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="170dp"
+        android:layout_marginTop="330dp"
         android:text="Practice social distancing"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textColor="#131313"
@@ -40,7 +47,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="310dp"
+        android:layout_marginTop="500dp"
         android:text="Hand hygiene"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textColor="#131313"
@@ -54,7 +61,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="510dp"
+        android:layout_marginTop="750dp"
         android:text="Quarantine"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textColor="#131313"
@@ -66,34 +73,41 @@
     <com.codesgood.views.JustifiedTextView
         android:id="@+id/socialdistancing"
         android:layout_width="341dp"
-        android:layout_height="100dp"
+        android:layout_height="130dp"
         android:text="In order to prevent yourself and your family you must practice social distancing. Try to avoid going out if it is not important. If you have to go out to run some errands try to maintain at least 2-meter distance. Try to wear mask and gloves for more protection."
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="200dp"/>
+        android:layout_marginTop="360dp"
+        android:textColor="#000000"
+        android:textSize="16sp"/>
 
     <com.codesgood.views.JustifiedTextView
         android:id="@+id/hygiene"
         android:layout_width="341dp"
-        android:layout_height="150dp"
+        android:layout_height="210dp"
         android:text="Hand hygiene is one of the best ways to prevent yourself and your family from getting COVID-19. Make sure to wash your hands often with water and soap. Handwashing should be done for at least 20 seconds, it must be done after coughing, sneezing or when you blow your nose, especially after eating or preparing food. An alcohol based hand sanitizer having 60 % alcohol can be used if soap and water are not readily available. "
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="340dp"/>
+        android:layout_marginTop="540dp"
+        android:textColor="#000000"
+        android:textSize="16sp"/>
 
     <com.codesgood.views.JustifiedTextView
         android:id="@+id/quarantine"
         android:layout_width="341dp"
-        android:layout_height="150dp"
+        android:layout_height="220dp"
         android:text="Quarantine is for people who have been in close contact with someone who has COVID-19. It can be done at home by monitoring your health. Stay home for 14 days after being in contact with someone who has COVID-19. Look for the symptoms of COVID-19. Try to stay away from others, especially when you think they have a week immune system and are at a higher risk for getting sick from COVID-19."
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="550dp"/>
+        android:layout_marginTop="780dp"
+        android:textColor="#000000"
+        android:textSize="16sp"/>
     
     
      <ImageView
       android:id="@+id/imageView12"
       android:layout_width="match_parent"
       android:layout_height="272dp"
-      app:srcCompact="@drawable/handwashing"/>
+         app:srcCompat="@drawable/handwashing"/>
 
 
 
 </RelativeLayout>
+</ScrollView>
