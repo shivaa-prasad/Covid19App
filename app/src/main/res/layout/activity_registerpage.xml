@@ -84,7 +84,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="150dp"
         android:layout_marginTop="520dp"
-        android:background="#6D9AED"
+        android:background="@drawable/custom_button"
         android:text="Sign up"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

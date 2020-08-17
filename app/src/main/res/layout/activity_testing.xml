@@ -7,25 +7,24 @@
     tools:context=".Testing">
 
 
-
     <TextView
         android:id="@+id/textView16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="130dp"
-        android:layout_marginTop="100dp"
+        android:layout_marginTop="70dp"
         android:text="Test Centers"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textColor="#131313"
-        android:typeface="serif"
         android:textStyle="bold"
+        android:typeface="serif"
         android:visibility="visible" />
 
     <LinearLayout
         android:id="@+id/Tc1"
         android:layout_width="match_parent"
         android:layout_height="112dp"
-        android:layout_marginTop="220dp"
+        android:layout_marginTop="180dp"
         android:orientation="vertical">
 
         <TextView
@@ -41,14 +40,11 @@
             android:visibility="visible" />
 
         <ImageView
-            android:id="@+id/imageView7"
-            android:layout_width="105dp"
-            android:layout_height="160dp"
-            android:layout_marginLeft="0dp"
-            android:layout_marginTop="-150dp"
-            android:layout_marginRight="290dp"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/testCenter1" />
+            android:id="@+id/imageView9"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="-110dp"
+            app:srcCompat="@drawable/testcenter1" />
 
     </LinearLayout>
 
@@ -56,7 +52,7 @@
         android:id="@+id/Tc2"
         android:layout_width="match_parent"
         android:layout_height="112dp"
-        android:layout_marginTop="380dp"
+        android:layout_marginTop="340dp"
         android:orientation="vertical">
 
         <TextView
@@ -65,21 +61,20 @@
             android:layout_height="match_parent"
             android:layout_marginLeft="105dp"
             android:paddingTop="30dp"
-            android:text=" Cdd Covid-19 Côte-Des-Neiges "
+            android:text="     Cdd Covid-19 Côte-Des-Neiges "
             android:textAppearance="@style/TextAppearance.AppCompat.Headline"
             android:textColor="#131313"
+            android:textSize="19sp"
             android:typeface="serif"
             android:visibility="visible" />
 
         <ImageView
-            android:id="@+id/imageView8"
-            android:layout_width="105dp"
-            android:layout_height="160dp"
-            android:layout_marginLeft="0dp"
-            android:layout_marginTop="-120dp"
-            android:layout_marginRight="290dp"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/testCenter2" />
+            android:id="@+id/imageView10"
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:layout_marginTop="-110dp"
+            app:srcCompat="@drawable/testcenter2" />
+
 
     </LinearLayout>
 
@@ -87,7 +82,7 @@
         android:id="@+id/Tc3"
         android:layout_width="match_parent"
         android:layout_height="112dp"
-        android:layout_marginTop="540dp"
+        android:layout_marginTop="510dp"
         android:orientation="vertical">
 
         <TextView
@@ -99,18 +94,16 @@
             android:text="Cdd Covid-19 Hotel-Dieu de Montreal "
             android:textAppearance="@style/TextAppearance.AppCompat.Headline"
             android:textColor="#131313"
+            android:textSize="16sp"
             android:typeface="serif"
             android:visibility="visible" />
 
         <ImageView
-            android:id="@+id/imageView9"
-            android:layout_width="105dp"
-            android:layout_height="160dp"
-            android:layout_marginLeft="0dp"
+            android:id="@+id/imageView11"
+            android:layout_width="100dp"
+            android:layout_height="130dp"
             android:layout_marginTop="-110dp"
-            android:layout_marginRight="290dp"
-            android:layout_weight="1"
-            app:srcCompat="@drawable/testCenter3" />
+            app:srcCompat="@drawable/testcenter3" />
 
 
     </LinearLayout>

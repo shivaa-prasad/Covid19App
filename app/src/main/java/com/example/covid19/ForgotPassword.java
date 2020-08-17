@@ -29,6 +29,8 @@ public class ForgotPassword extends AppCompatActivity {
         restPassword = (Button)findViewById(R.id.passwordRest);
         mAuth = FirebaseAuth.getInstance();
 
+        getSupportActionBar().setTitle("Covid-19 Information App");
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         restPassword.setOnClickListener(new View.OnClickListener() {
             @Override

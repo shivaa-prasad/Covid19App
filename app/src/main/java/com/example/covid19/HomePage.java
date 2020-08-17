@@ -1,9 +1,15 @@
 package com.example.covid19;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.ClipData;
 import android.content.Intent;
+import android.icu.text.CaseMap;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
@@ -11,6 +17,7 @@ import android.widget.LinearLayout;
 public class HomePage extends AppCompatActivity {
 
     private LinearLayout about_covid, prevent_covid,sick_covid, testing_covid, travel_covid, help_covid;
+    ClipData.Item logout;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,7 +58,7 @@ public class HomePage extends AppCompatActivity {
         testing_covid.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(HomePage.this, Testing.class);
+                Intent i = new Intent(HomePage.this, CenterMaps.class);
                 startActivity(i);
             }
         });
@@ -73,5 +80,22 @@ public class HomePage extends AppCompatActivity {
         });
 
 
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.example_menu, menu);
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        int id = item.getItemId();
+        if(id==R.id.logout){
+            Intent intent = new Intent(HomePage.this, MainActivity.class);
+            startActivity(intent);
+        }
+        return true;
     }
 }

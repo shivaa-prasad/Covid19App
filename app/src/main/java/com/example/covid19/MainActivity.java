@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     FirebaseAuth mAuth;
     ProgressBar progressBar;
     TextView createaccount, fgtpassword;
+    private static final String TAG = "SessionManager";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -82,5 +83,6 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
 }
 
