@@ -1,9 +1,7 @@
 package com.example.covid19;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -12,6 +10,10 @@ import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.annotation.RequiresApi;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -26,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
     ProgressBar progressBar;
     TextView createaccount, fgtpassword;
     private static final String TAG = "SessionManager";
+    @RequiresApi(api = Build.VERSION_CODES.KITKAT)
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -60,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                         if(task.isSuccessful()){
                             Toast.makeText(MainActivity.this, "Login Successful", Toast.LENGTH_SHORT).show();
-                            startActivity(new Intent(getApplicationContext(),HomePage.class));
+                            startActivity(new Intent(getApplicationContext(),CovidStats.class));
                         }
                         else {
                             Toast.makeText(MainActivity.this,"Error Occured" +task.getException().getMessage(), Toast.LENGTH_SHORT).show();
@@ -82,7 +85,11 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, ForgotPassword.class));
             }
         });
+
+
     }
 
 }
+
+
 

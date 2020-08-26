@@ -6,9 +6,7 @@
     android:layout_height="wrap_content"
     android:layout_centerVertical="true">
 
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+<RelativeLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Travel">
@@ -47,7 +45,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="550dp"
+        android:layout_marginTop="600dp"
         android:text="What Saftey Measures To Take?"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textColor="#131313"
@@ -61,7 +59,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="790dp"
+        android:layout_marginTop="850dp"
         android:text="How to quarantine?"
         android:textAppearance="@style/TextAppearance.AppCompat.Headline"
         android:textColor="#131313"
@@ -105,7 +103,7 @@ This list will be updated as new data is available.
 •	Try to use contactless payment.
 "
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="580dp"
+        android:layout_marginTop="630dp"
         android:textColor="#000000"
         android:textSize="16sp"/>
 
@@ -120,7 +118,7 @@ This list will be updated as new data is available.
 •	Try not to attend mass gathering events like parade, sport events etc.
 "
         android:layout_marginLeft="30dp"
-        android:layout_marginTop="820dp"
+        android:layout_marginTop="880dp"
         android:textColor="#000000"
         android:textSize="16sp"/>
 
@@ -130,6 +128,16 @@ This list will be updated as new data is available.
         android:layout_width="match_parent"
         android:layout_height="232dp"
         app:srcCompat="@drawable/travelsafe"/>
+
+    <TextView
+        android:id="@+id/country_stats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="550dp"
+        android:text="Click to view your travel country stats"
+        android:textColor="#2196F3"
+        android:textSize="16sp" />
 
 
 </RelativeLayout>

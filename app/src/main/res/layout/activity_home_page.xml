@@ -9,15 +9,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HomePage">
-
-
+    
     <LinearLayout
 
         android:id="@+id/about"
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_marginTop="110dp"
-        android:background="#0336FF"
+        android:background="#21896C"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -46,7 +45,7 @@
             android:layout_weight="1"
             android:text="About Covid-19"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="#000000"
+            android:textColor="#FFFFFF"
             android:textSize="18sp"
             android:textStyle="bold"
             android:typeface="serif" />
@@ -57,7 +56,7 @@
         android:layout_width="match_parent"
         android:layout_height="80dp"
         android:layout_marginTop="220dp"
-        android:background="#0336FF"
+        android:background="#21896C"
         android:orientation="vertical">
 
         <ImageView
@@ -80,9 +79,9 @@
             android:layout_weight="1"
             android:text="How to Prevent"
             android:textAppearance="@style/TextAppearance.AppCompat.Large"
-            android:textColor="#000000"
             android:textSize="18sp"
             android:textStyle="bold"
+            android:textColor="#FFFFFF"
             android:typeface="serif" />
 
     </LinearLayout>
@@ -93,7 +92,7 @@
             android:layout_height="80dp"
             android:layout_marginTop="330dp"
             android:orientation="vertical"
-            android:background="#0336FF">
+            android:background="#21896C">
 
             <ImageView
                 android:id="@+id/imageView3"
@@ -115,7 +114,7 @@
                 android:layout_weight="1"
                 android:text="If You Get Sick"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:typeface="serif" />
@@ -127,7 +126,7 @@
             android:layout_height="80dp"
             android:layout_marginTop="440dp"
             android:orientation="vertical"
-            android:background="#0336FF">
+            android:background="#21896C">
 
             <ImageView
                 android:id="@+id/imageView4"
@@ -149,7 +148,7 @@
                 android:layout_weight="1"
                 android:text="Testing Centers"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:typeface="serif" />
@@ -161,7 +160,7 @@
             android:layout_height="80dp"
             android:layout_marginTop="550dp"
             android:orientation="vertical"
-            android:background="#0336FF">
+            android:background="#21896C">
 
             <ImageView
                 android:id="@+id/imageView5"
@@ -183,7 +182,7 @@
                 android:layout_weight="1"
                 android:text="Travel Safe Countries"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:typeface="serif" />
@@ -195,7 +194,7 @@
             android:layout_height="80dp"
             android:layout_marginTop="660dp"
             android:orientation="vertical"
-            android:background="#0336FF">
+            android:background="#21896C">
 
             <ImageView
                 android:id="@+id/imageView6"
@@ -217,7 +216,7 @@
                 android:layout_weight="1"
                 android:text="Where To Find Help"
                 android:textAppearance="@style/TextAppearance.AppCompat.Large"
-                android:textColor="#000000"
+                android:textColor="#FFFFFF"
                 android:textSize="18sp"
                 android:textStyle="bold"
                 android:typeface="serif" />

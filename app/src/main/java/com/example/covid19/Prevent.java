@@ -1,13 +1,13 @@
 package com.example.covid19;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 public class Prevent extends AppCompatActivity {
 
@@ -33,6 +33,9 @@ public class Prevent extends AppCompatActivity {
         if (id == R.id.logout) {
             Intent intent = new Intent(Prevent.this, MainActivity.class);
             startActivity(intent);
+        }
+        else if (item.getItemId()== android.R.id.home){
+            finish();
         }
         return true;
     }

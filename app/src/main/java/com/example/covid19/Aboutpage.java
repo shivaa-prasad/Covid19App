@@ -26,8 +26,11 @@ public class Aboutpage extends AppCompatActivity {
 
         getSupportActionBar().setTitle("Covid-19 Information App");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        getSupportActionBar().setHomeButtonEnabled(true);
 
     }
+
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
@@ -41,6 +44,9 @@ public class Aboutpage extends AppCompatActivity {
         if (id == R.id.logout) {
             Intent intent = new Intent(Aboutpage.this, MainActivity.class);
             startActivity(intent);
+        }
+        else if (item.getItemId()== android.R.id.home){
+            finish();
         }
         return true;
     }

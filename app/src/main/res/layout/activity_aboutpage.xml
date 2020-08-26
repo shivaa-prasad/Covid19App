@@ -99,27 +99,16 @@
         android:layout_height="228dp"
         android:layout_marginLeft="30dp"
         android:layout_marginTop="690dp"
-        android:text="Those who are infected with COVID-19 have had a wide range of symptoms. Symptoms may appear 2-14 days after exposure to the virus. Symptoms may vary from mild to severe. Symptoms for COVID-19 are:
-        •	Cough
-        •	Fever
-        •	Chills
-        •	Running nose
-        •	Sore throat
-        •	Breathing difficulty
-        •	Body aches
-        •	Fatigue
-        •	Nausea or vomiting
-        •	Diarrhea
-        The list may not be complete but it will be updated as more information is learned about COVID-19.
-"
+        android:text="Those who are infected with COVID-19 have had a wide range of symptoms. Symptoms may appear 2-14 days after exposure to the virus. Symptoms may vary from mild to severe. Symptoms for COVID-19 are Cough, Fever, Chills, Running nose, Sore throat, Breathing difficulty, Body aches, Fatigue, Nausea or vomiting and Diarrhea
+                    The list may not be complete but it will be updated as more information is learned about COVID-19."
         android:textColor="#000000"
         android:textSize="16sp" />
 
     <ImageView
         android:id="@+id/imageView7"
         android:layout_width="match_parent"
-        android:layout_height="218dp"
-        app:srcCompat="@drawable/covid"/>
+        android:layout_height="212dp"
+        app:srcCompat="@drawable/covid" />
 
 </RelativeLayout>
 </ScrollView>

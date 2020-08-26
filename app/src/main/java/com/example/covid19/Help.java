@@ -35,6 +35,9 @@ public class Help extends AppCompatActivity {
             Intent intent = new Intent(Help.this, MainActivity.class);
             startActivity(intent);
         }
+        else if (item.getItemId()== android.R.id.home){
+            finish();
+        }
         return true;
     }
 
