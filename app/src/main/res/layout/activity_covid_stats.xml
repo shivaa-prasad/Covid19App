@@ -264,13 +264,6 @@
 
         </RelativeLayout>
 
-        <ImageView
-            android:id="@+id/imageView17"
-            android:layout_width="177dp"
-            android:layout_height="156dp"
-            android:layout_marginTop="500dp"
-            app:srcCompat="@drawable/covidstats" />
-
     </androidx.cardview.widget.CardView>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -282,4 +275,11 @@
         app:itemTextColor="@color/colorPrimaryDark"
         app:itemIconTint="@color/colorPrimaryDark"
         app:menu="@menu/navigation" />
+   <ImageView 
+              
+         android:id="@+id/imageView16"
+         android:layout_width="match_parent"
+         android:layout_height="353dp"
+         app:srcCompat="@drawable/covidstats" />
+
 </RelativeLayout>
