@@ -262,7 +262,6 @@
 
             </LinearLayout>
 
-
         </RelativeLayout>
 
         <ImageView
@@ -283,5 +282,4 @@
         app:itemTextColor="@color/colorPrimaryDark"
         app:itemIconTint="@color/colorPrimaryDark"
         app:menu="@menu/navigation" />
-
 </RelativeLayout>
