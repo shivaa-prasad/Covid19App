@@ -18,15 +18,15 @@ public class Sick extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sick);
         
-        testcenters = findViewById(R.id.)
+        testcenters = findViewById(R.id.testcenter_sick)
 
         getSupportActionBar().setTitle("Covid-19 Information App");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         
-        travelcountrystats.setOnClickListener(new View.OnClickListener() {
+        testcenters.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Travel.this, IndividualCountries.class));
+                startActivity(new Intent(Sick.this, CenterMaps.class));
 
             }
         });
