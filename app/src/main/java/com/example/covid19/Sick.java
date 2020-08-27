@@ -10,14 +10,26 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 
 public class Sick extends AppCompatActivity {
+    
+    private TextView testcenters;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sick);
+        
+        testcenters = findViewById(R.id.)
 
         getSupportActionBar().setTitle("Covid-19 Information App");
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        
+        travelcountrystats.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Travel.this, IndividualCountries.class));
+
+            }
+        });
     }
 
     @Override
